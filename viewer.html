@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1f6f5c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+<title>Lekce – Studovna FBMI</title>
+</head>
+<body class="viewer">
+<div class="vbar" id="vbar">
+  <a class="bt" href="lekce.html" aria-label="Zpět na lekce">← Lekce</a>
+  <button id="prev" aria-label="Předchozí lekce">‹</button>
+  <div class="t"><b id="vt">…</b><span id="vs"></span><div class="dots" id="dots"></div></div>
+  <button id="next" aria-label="Další lekce">›</button>
+  <a class="bt" id="solo" href="#" title="Otevřít samostatně" aria-label="Otevřít samostatně">⤢</a>
+</div>
+<div class="stage" id="stage"><div class="hint" id="hint">⇆ Přejeď prstem po horní liště pro další lekci</div></div>
+<script src="data.js"></script>
+<script src="viewer.js"></script>
+</body>
+</html>
